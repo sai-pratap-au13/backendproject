@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const {MONGODB_URI} = process.env;
+const {MONGODB_URI} = process.env || "mongodb+srv://saipratap_609:mongo123@cluster0.ngq4z.mongodb.net/cabBooking?retryWrites=true&w=majority";
 
 
 mongoose.connect(MONGODB_URI,{
