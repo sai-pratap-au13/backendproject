@@ -67,47 +67,45 @@ Project done by _Prateek and Sai_
 
     - Register customer Account
 
-      > POST https://rentmecar7.herokuapp.com/api/user/register
+      > POST https://book-my-car.herokuapp.com/api/user/register
 
     - Account Activation
-      > GET https://rentmecar7.herokuapp.com/api/accountactivation/{Activation Token}?user=
+      > GET https://book-my-car.herokuapp.com/api/accountactivation/{Activation Token}?user=
              {Role}
 
     - Login into customer Account
-      > POST https://rentmecar7.herokuapp.com/api/user/login
+      > POST https://book-my-car.herokuapp.com/api/user/login
 
     - showing all vehicles which are available
-       > GET https://rentmecar7.herokuapp.com/api/customer/vehicelsearch/allavailablevehicles/{Page Number}/
+       > GET https://book-my-car.herokuapp.com/api/customer/vehicelsearch/allavailablevehicles/{Page Number}/
 
 
        * filtering vehicels 
-          > GET https://rentmecar7.herokuapp.com/api/customer/vehicelsearch/filter/{Page Number}?category={name/color/}
+          > GET https://book-my-car.herokuapp.com/api/customer/vehicelsearch/filter/{Page Number}?category={name/color/}
 
        * showing single vehicle by vehicleId
-          > GET https://rentmecar7.herokuapp.com/api/customer/vehicelsearch/byvehicleId/{vehicle Id}/
+          > GET https://book-my-car.herokuapp.com/api/customer/vehicelsearch/byvehicleId/{vehicle Id}/
 
        * vehicle Accepting by customer
-            > PATCH https://rentmecar7.herokuapp.com/api/customer/vehicelsearch/byvehicleid/{vehicle Id}/isaccepted
+            > https://book-my-car.herokuapp.com/api/customer/vehicelsearch/byvehicleid/{vehicle Id}/isaccepted
 
        * showing vehicles accepted by customer till date
-            > GET https://rentmecar7.herokuapp.com/api/customer/vehiclesacceptedtilldate/{Page Number}
+            > GET https://book-my-car.herokuapp.com/api/customer/vehiclesacceptedtilldate/{Page Number}
 
        *  Uploading Profile Picture
-            > PATCH https://rentmecar7.herokuapp.com/api/customer/uploadprofilepicture
+            > PATCH https://book-my-car.herokuapp.com/api/customer/uploadprofilepicture
 
        * udpating profile
-            > PATCH https://rentmecar7.herokuapp.com/api/customer/editprofile
+            > PATCH https://book-my-car.herokuapp.com/api/customer/editprofile
 
        * Edit password
-            > PATCH https://rentmecar7.herokuapp.com/api/customer/editpassword
+            > PATCH https://book-my-car.herokuapp.com/api/customer/editpassword
 
 
        * Logging out from customer Account
-           > DELETE https://rentmecar7.herokuapp.com/api/customer/logout
+           > DELETE https://book-my-car.herokuapp.com/api/customer/logout
 
-       * forgot passsword sending system generated password
-            > POST https://rentmecar7.he
-
+            
 # Features :
 
 ### \* REGISTRAION & LOGIN Related
